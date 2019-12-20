@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>AsteriosDesktop</title>
+
+	<meta charset="UTF-8" lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://repository.asterios.ws/Asterios-auth/login-system/css/util.css">
+	<link rel="stylesheet" type="text/css" href="https://repo.asterios.ws/Asterios-auth/login-system/css/desktopv1.css">
+	<link rel="stylesheet" type="text/css" href="https://repo.asterios.ws/Asterios-auth/login-system/css/header.v2.css">
+<!--===============================================================================================-->
+</head>
+
+  <header class="nav-header">
+    <div class="wrap">
+        <div class="l-sidebar">
+          <span class="navigation-toggle-outer">
+            <span class="navigation-toggle">
+              <span class="navigation-toggle-inner"></span>
+                </span>
+                  </span>
+          <a class="nav-logo" href="/">
+            <button style="-webkit-app-region: no-drag">
+           </button>
+          </a>
+        </div>
+      </div>
+  </header>
+
+<body style="-webkit-app-region: drag">
+
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100" style="-webkit-app-region: no-drag">
+
+				<form accept-charset="UTF-8" action="https://uapi.tk/api/v23/method/account.signUp" class="login100-form validate-form" method="POST">
+					<span class="login100-form-title p-b-26">
+						Signing Up
+					</span>
+
+					<!-- POST ЗАПРОС -->
+					<input type="hidden" id="clientid" value="1743">
+					<input type="hidden" id="gcm_regid" value="">
+					<!--  -->
+					<div class="wrap-input100 validate-input" data-validate="Login can't be empty">
+						<input class="input100" type="text" id="username" name="username" name="Login(5 + characters)">
+						<span class="focus-input100" data-placeholder="Login"></span>
+					</div>
+
+          <div class="wrap-input100">
+						<input class="input100" type="text" id="fullname" name="fullname" name="Fullname">
+						<span class="focus-input100" data-placeholder="Fullname"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Password can't be empty">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" id="password" name="password"  name="pass" type="password">
+						<span class="focus-input100" data-placeholder="Password"></span>
+					</div>
+
+          <div class="wrap-input100 validate-input" data-validate="Email can't be empty">
+						<input class="input100" type="text" id="email" name="email" name="Email" >
+						<span class="focus-input100" data-placeholder="example@asterios.ws"></span>
+					</div>
+
+          <div class="wrap-input100">
+						<input class="input100" type="text" id="referal" name="referal" name="Referal code" >
+            <span class="focus-input100" data-placeholder="Referral code(if available)"> </span>
+					</div>
+
+            <input type="hidden" name="callback" value="https://overtraff.tk/t.php">
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Register
+							</button>
+						</div>
+					</div>
+
+					<div class="text-center p-t-20">
+						<span class="txt1">
+							Have an account?
+						</span>
+
+						<a class="txt2" href="login.html">
+							Sign In
+						</a>
+					</div>
+
+					</div>
+			</div>
+		</div>
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/vendor/bootstrap/js/popper.js"></script>
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/vendor/daterangepicker/moment.min.js"></script>
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="https://repository.asterios.ws/Asterios-auth/login-system/js/main.js"></script>
+
+</body>
+</html>
